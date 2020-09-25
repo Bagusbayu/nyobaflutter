@@ -11,19 +11,21 @@ class HalSatu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-        body: new Center(
-      child: new Container(
-          color: Colors.blue[700],
-          width: 200.0,
-          height: 100.0,
-          child: new Center(
-            child: new Text(
-              "Hallo",
-              style: new TextStyle(
-                  color: Colors.white, fontFamily: "Serif", fontSize: 20.0),
-            ),
-          )),
-    ));
+      body: new Center(
+          child: new Container(
+        color: Colors.blue[700],
+        width: 200.0,
+        height: 100.0,
+        child: new Center(
+          child: new Icon(
+            Icons.android,
+            color: Colors.yellow,
+            size: 70.0,
+          ),
+          //child: new Text("Hallo", style: new TextStyle( color: Colors.white, fontFamily: "Serif", fontSize: 20.0),
+        ),
+      )),
+    );
   }
 }
 
